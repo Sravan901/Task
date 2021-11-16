@@ -1,0 +1,56 @@
+[
+  {
+    "description": "    Feature Description Open browser and Login into UST ",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-into-ust-app;open-browser",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Open browser",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Enter url",
+            "match": {
+              "location": "StepDefinition\\LoginStepDef.js:14"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 26699000000,
+              "error_message": "TimeoutError: Wait timed out after 10007ms\n    at C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n    at ControlFlow.wait (C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n    at Driver.wait (C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n    at run (C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:58:33)\n    at ProtractorBrowser.to.<computed> [as wait] (C:\\Users\\Sravana\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:66:16)\n    at World.<anonymous> (C:\\Proctractor\\UST table reading\\StepDefinition\\LoginStepDef.js:17:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user enter into the frame1",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-into-ust-app",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login into UST app",
+    "tags": [],
+    "uri": "features\\Login.feature"
+  }
+]
